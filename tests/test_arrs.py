@@ -4,7 +4,6 @@ from utils.arrs import get, my_slice
 
 class TestExample(unittest.TestCase):
 
-
     def test_get(self):
         self.assertEqual(get([1, 2, 3], 1), 2)
         self.assertEqual(get([1, 2, 3], 5), None)
