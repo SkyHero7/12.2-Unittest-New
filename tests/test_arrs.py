@@ -1,7 +1,6 @@
 import unittest
 from utils.arrs import get, my_slice
 
-
 class TestExample(unittest.TestCase):
 
 
